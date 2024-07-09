@@ -281,3 +281,41 @@
   opacity: 0.7;
   margin-top: 10px;
 }
+
+/* page 3 styles */
+/* text styles */
+.main-text {
+  width: 852px;
+  height: 37px;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.main-description {
+  width: 852px;
+  height: 52px;
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.video-attribute {
+  width: 1076px;
+  height: 550px;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-bottom: 183px;
+  background: rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+}
+.video-attribute {
+}
