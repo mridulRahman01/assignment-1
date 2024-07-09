@@ -1,0 +1,110 @@
+/* all fonts in this website */
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-size: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.azeret-mono-big {
+  font-family: "Azeret Mono", monospace;
+  font-optical-size: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.azeret-mono-small {
+  font-family: "Azeret Mono", monospace;
+  font-optical-size: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* text-styles for page-1 */
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+.upper1 {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.upper2 {
+  margin-right: 60px;
+  margin-top: 10px;
+  width: 228px;
+  height: 58px;
+  padding: 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+.text-primary {
+  width: 998px;
+  height: 136px;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  margin: 0 auto;
+}
+.text-description {
+  width: 852px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  /* margin-left: 85px; */
+  margin: 0 auto;
+}
+/* button styles for page-1 */
+.btn {
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  background-color: rgb(13, 19, 33);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 21px 24px 21px 24px;
+  margin-top: 45px;
+  margin-left: 460px;
+  margin-right: 200px;
+  margin-bottom: 44px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.primary {
+  margin-top: 0px;
+  margin-bottom: 218px;
+  margin-left: 221px;
+  margin-right: 221px;
+  align-items: center;
+  justify-content: center;
+}
+/* image edit */
+.image {
+  margin-top: 26px;
+  margin-left: 683px;
+  margin-bottom: 32px;
+  margin-right: 578.86px;
+}
+/* main page-1 */
+.page1 {
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 74px;
+  /* Hero-bg */
+}
+/* .main-page1 {
+  margin: 0 auto;
+} */
