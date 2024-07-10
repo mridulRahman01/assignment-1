@@ -33,6 +33,10 @@
 .upper1 {
   margin-top: 10px;
   margin-left: 60px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-bottom: 8px;
 }
 .upper2 {
   margin-right: 60px;
@@ -44,6 +48,10 @@
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  margin-bottom: 5px;
+}
+.upper2:hover {
+  cursor: pointer;
 }
 .text-primary {
   width: 998px;
@@ -590,4 +598,31 @@
   line-height: 23px;
   padding: 17px 20px 17px 20px;
   margin-left: 16px;
+}
+.Submit:hover {
+  cursor: pointer;
+}
+/* page 6 styles */
+.flex8 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  width: 1276px;
+  height: 0px;
+  padding: 80px 150px 80px 150px;
+}
+.fb {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+}
+.git {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+}
+.linkdin {
+  width: 36px;
+  height: 36px;
 }
